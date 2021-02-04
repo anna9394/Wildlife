@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="owl.carousel.min.css" rel="stylesheet">
+    <link href="owl.theme.default.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
 </head>
 
@@ -42,8 +44,33 @@
         </div>
     </header>
 
+    <main>
+        <div class="wrapper mainCenter">
+            <h2>Latest articles</h2>
+            <p>Breaking news from the wild</p>
 
+            <div class="slider">
+                <div class="owl-carousel owl-theme">
+                    <div class="item sliderImg wrapper">
+                        <img src="img/deer.jpg" alt="slider" class="sliderImg">
+                        <img src="img/squirrel.jpg" alt="slider" class="sliderImg">
+                        <img src="img/bird.jpg" alt="slider" class="sliderImg">
+                    </div>
+                </div>
+                <h3>Get notified about new amazing articles</h3>
 
+            </div>
+
+            <form class="mainSearch">
+                <input type="text" placeholder="Email" name="search" class="searchInput">
+                <button aria-label="searchButton" type="submit">Send</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 
