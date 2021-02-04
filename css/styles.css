@@ -39,13 +39,14 @@ img {
 }
 
 header {
-  min-height: 780px;
   margin: 0 auto;
-  background-image: url("../img/Rectangle.png");
+  background-image: url(../img/Rectangle.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
   color: #f7f7f7;
   font-size: 18px;
+  padding-bottom: 120px;
 }
 
 .logoHeader {
