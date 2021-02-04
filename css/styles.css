@@ -4,6 +4,8 @@ a,
 figure,
 h1,
 h2,
+h3,
+h4,
 p,
 form {
   margin: 0;
@@ -205,19 +207,16 @@ main {
   margin-bottom: 120px;
 }
 
-.sliderImg {
-  display: flex;
-  margin-bottom: 140px;
-}
-
-.sliderImg img {
-  margin-right: 40px;
-}
-
 main h3 {
   text-align: center;
   color: #333333;
   font-size: 18px;
+}
+
+.mainSlider {
+  max-width: 1000px;
+  margin: 0 auto 140px auto;
+  position: relative;
 }
 
 .mainSearch {
@@ -255,4 +254,62 @@ main h3 {
 .mainSearch button:hover {
   background-color: #e39128;
   cursor: pointer;
+}
+
+.containerItem {
+  position: relative;
+}
+
+.imgTitle {
+  position: absolute;
+  top: 93%;
+  left: 30%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #f7f7f7;
+}
+
+.imgTitle p {
+  color: #f7f7f7;
+  font-size: 14px;
+}
+
+.imgTitle h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 915px) {
+  .imgTitle {
+    top: 98%;
+    left: 26%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .mainSearch button {
+    width: 70px;
+  }
+  .mainSearch input {
+    min-width: 350px;
+  }
+  .imgTitle {
+    top: 100%;
+    left: 23%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .imgTitle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .mainSearch button {
+    width: 60px;
+  }
+  .mainSearch input {
+    min-width: 250px;
+  }
 }
