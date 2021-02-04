@@ -150,3 +150,24 @@ p {
   margin-top: 50px;
   background-color: #cd6326;
 }
+
+@media screen and (max-width: 750px) {
+  .logoHeader {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logoHeader nav {
+    margin: 10px auto;
+  }
+  .logoHeader menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  h1 {
+    margin: 0 -15px;
+  }
+}
