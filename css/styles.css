@@ -7,6 +7,7 @@ h2,
 h3,
 h4,
 p,
+ul,
 form {
   margin: 0;
   padding: 0;
@@ -42,7 +43,7 @@ img {
 
 header {
   margin: 0 auto;
-  background-image: url(../img/Rectangle.png);
+  background-image: url(../img/Fox.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -316,6 +317,8 @@ main h3 {
 
 footer {
   background-image: url("../img/list.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 150px 0 150px 0;
 }
 
@@ -325,29 +328,102 @@ footer figcaption {
 
 .logoFooter {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.logoFooter nav {
+.footerMenuContainer {
   display: flex;
-  align-items: center;
   margin-left: auto;
-}
-
-.logoFooter menu {
-  display: flex;
   align-items: center;
 }
 
-.logoFooter nav a {
-  margin-right: 61px;
+footer .footerMenu {
+  margin-right: 85px;
   color: #f7f7f7;
 }
 
-.logoFooter nav a:hover {
+.logoFooter a:hover {
   color: #cd6326;
   text-decoration: underline;
 }
 
-footer menu img {
-  width: 30%;
+footer .social {
+  margin-right: 5px;
+}
+
+.footerSocialContainer {
+  display: flex;
+}
+
+@media screen and (max-width: 1050px) {
+  .logoFooter {
+    flex-direction: column;
+  }
+
+  footer .footerMenu:last-child {
+    margin-right: 0;
+  }
+
+  .footerMenuContainer {
+    margin-left: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  footer {
+    padding: 50px 0;
+  }
+  .logo {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  footer {
+    padding: 25px 0;
+  }
+  .footerMenuContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  footer {
+    padding: 25px 0;
+  }
+  .footerMenuContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .footerMenuContainer {
+    align-items: start;
+  }
+
+  img {
+    width: 70%;
+  }
+
+  .logo picture {
+    margin-right: 0;
+  }
+
+  .footerMenuContainer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .social-container {
+    display: none;
+  }
+
+  .logo figcaption {
+    font-size: 25px;
+  }
+
+  .logo picture {
+    display: none;
+  }
 }
