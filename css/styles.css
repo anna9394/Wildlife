@@ -16,6 +16,7 @@ form {
 body {
   font-family: "Open Sans", sans-serif;
   color: #f7f7f7;
+  letter-spacing: 2px;
 }
 
 * {
@@ -42,8 +43,13 @@ img {
   margin: 0 auto;
 }
 
+body {
+  background-color: rgb(13, 41, 13);
+}
+
 header {
   margin: 0 auto;
+  max-width: 1440px;
   background-image: url(../img/Fox.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -68,7 +74,13 @@ header {
 
 .logoHeader nav a {
   margin-right: 61px;
+  font-size: 23px;
 }
+
+.logoHeader nav a:nth-child(2) {
+  margin-right: 20px;
+}
+
 .logoHeader nav a:hover {
   color: #cd6326;
   text-decoration: underline;
@@ -105,7 +117,7 @@ header {
   min-height: 32px;
   background-image: url(../img/Vector.png);
   background-repeat: no-repeat;
-  margin-right: 65px;
+  margin-right: 90px;
   padding: 0px 15px;
   background-position: 50% 50%;
 }
@@ -118,9 +130,9 @@ header {
   border: 2px solid #cd6326;
   border-radius: 5px;
   color: #f7f7f7;
-  font-size: 18px;
+  font-size: 23px;
   align-items: center;
-  padding: 5px 23px;
+  padding: 11px 24px;
 }
 
 .btn:hover {
@@ -144,14 +156,15 @@ header {
 h1 {
   color: #cd6326;
   font-size: 48px;
-  padding-top: 120px;
-  letter-spacing: 2px;
+  padding-top: 145px;
 }
 
 header p {
-  max-width: 270px;
+  max-width: 310px;
+  text-align: justify;
   font-size: 18px;
-  padding-top: 50px;
+  padding-top: 67px;
+  line-height: 27px;
 }
 
 .primary:hover {
@@ -161,8 +174,9 @@ header p {
 }
 
 .primary {
-  margin-top: 50px;
+  margin-top: 35px;
   background-color: #cd6326;
+  padding: 20px 50px;
 }
 
 main {
@@ -171,46 +185,52 @@ main {
 }
 
 .mainCenter {
-  padding-top: 120px;
+  padding-top: 142px;
   text-align: center;
 }
 
 .mainCenter h2 {
   color: #333333;
   font-size: 48px;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 }
 
 .mainCenter p {
   color: #666666;
   font-size: 24px;
-  margin-bottom: 120px;
+  margin-bottom: 136px;
+}
+
+.owl-carousel .owl-item img {
+  width: 113%;
 }
 
 main h3 {
   text-align: center;
   color: #333333;
+  font-size: 27px;
 }
 
 .mainSlider {
   max-width: 1000px;
-  margin: 0 auto 140px auto;
+  margin: 0 auto 273px auto;
   position: relative;
 }
 
 .mainSearch {
   display: flex;
   justify-content: center;
-  margin: 50px auto 0 auto;
+  margin: 70px auto 0 auto;
   padding-bottom: 275px;
 }
 
 .mainSearch input {
-  min-width: 510px;
+  min-width: 600px;
   border: 1px solid #666666;
   border-right: none;
   color: #cecece;
   padding-left: 15px;
+  font-size: 23px;
   background-color: transparent;
 }
 
@@ -224,7 +244,8 @@ main h3 {
   border-bottom-right-radius: 5px;
   background-color: #cd6326;
   color: #f7f7f7;
-  width: 85px;
+  font-size: 23px;
+  width: 135px;
   padding: 20px 30px;
 }
 
@@ -260,11 +281,12 @@ footer {
   background-image: url("../img/list.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 150px 0 150px 0;
+  padding: 170px 0 150px 0;
 }
 
 footer figcaption {
   color: #f7f7f7;
+  font-size: 32px;
 }
 
 .logoFooter {
@@ -277,6 +299,7 @@ footer figcaption {
   display: flex;
   margin-left: auto;
   align-items: center;
+  font-size: 23px;
 }
 
 footer .footerMenu {
@@ -289,7 +312,7 @@ footer .footerMenu {
 }
 
 footer .social {
-  margin-right: 5px;
+  margin-right: 30px;
 }
 
 .footerSocialContainer {
