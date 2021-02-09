@@ -250,7 +250,7 @@ main h2 {
   padding-bottom: 240px;
 }
 
-.mainSearch input {
+.mainSearch .searchInput {
   min-width: 540px;
   border: 1px solid #666666;
   border-right: none;
@@ -260,7 +260,7 @@ main h2 {
   background-color: transparent;
 }
 
-.mainSearch button {
+.mainSearch input[type="submit"] {
   display: flex;
   justify-content: center;
   border: 1px solid #cd6326;
@@ -275,7 +275,7 @@ main h2 {
   padding: 16px 0px;
 }
 
-.mainSearch button:hover {
+.mainSearch input[type="submit"]:hover {
   background-color: #e39128;
   cursor: pointer;
 }
@@ -481,10 +481,10 @@ footer .social:not(:last-child) {
 }
 
 @media screen and (max-width: 780px) {
-  .mainSearch button {
+  .mainSearch input[type="submit"] {
     width: 70px;
   }
-  .mainSearch input {
+  .mainSearch .searchInput {
     min-width: 350px;
   }
 }
@@ -520,10 +520,10 @@ footer .social:not(:last-child) {
 }
 
 @media screen and (max-width: 575px) {
-  .mainSearch button {
+  .mainSearch input[type="submit"] {
     width: 60px;
   }
-  .mainSearch input {
+  .mainSearch .searchInput {
     min-width: 250px;
   }
 }
@@ -650,7 +650,7 @@ footer .social:not(:last-child) {
     display: none;
   }
 
-  .mainSearch input {
+  .mainSearch .searchInput {
     min-width: 150px;
   }
 }
