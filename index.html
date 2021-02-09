@@ -43,9 +43,9 @@
     </div>
 
     <main>
-        <div class="latestArticles wrapper">
+        <section class="latestArticles wrapper">
             <h2>Latest articles</h2>
-            <p class="latestArticlesSubHeading">Breaking news from the wild</p>
+            <h3 class="latestArticlesSubHeading">Breaking news from the wild</h3>
 
             <div class="containerCards">
                 <div class="btnSlider">
@@ -54,36 +54,34 @@
                 </div>
 
                 <div class="card">
-                    <img src="img/deer.jpg" alt="sliderDeer">
+                    <img src="img/deer.jpg" alt="slider deer">
                     <div class="imgTitle">
                         <h4>Deer</h4>
-                        <p class="itemP">Naturalist investigation</p>
+                        <p>Naturalist investigation</p>
                     </div>
                 </div>
 
                 <div class="card  hiddenCardSquirrel">
-                    <img src="img/squirrel.jpg" alt="sliderSquirrel">
+                    <img src="img/squirrel.jpg" alt="slider squirrel">
                     <div class="imgTitle">
                         <h4>Squirrel</h4>
-                        <p class="itemP">Kamikaze squirrels</p>
+                        <p>Kamikaze squirrels</p>
                     </div>
                 </div>
 
                 <div class="card hiddenCard">
-                    <img src="img/bird.jpg" alt="sliderBird">
+                    <img src="img/bird.jpg" alt="slider bird">
                     <div class="imgTitle">
                         <h4>Bird</h4>
-                        <p class="itemP">Birds Fight club</p>
+                        <p>Birds Fight club</p>
                     </div>
                 </div>
-
             </div>
+        </section>
 
-        </div>
-
-        <section class="fetNotified">
-            <h3>Get notified about new amazing articles</h3>
-            <form class="mainSearch">
+        <section class="getNotified">
+            <h2>Get notified about new amazing articles</h2>
+            <form class="mainSearch" action="/" method="POST">
                 <input type="text" placeholder="Email" name="search" class="searchInput">
                 <button aria-label="searchButton" type="submit">Send</button>
             </form>
