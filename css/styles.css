@@ -71,8 +71,8 @@ body {
   align-items: center;
 }
 
-.logoHeader nav a {
-  margin-right: 61px;
+.logoHeader nav .link {
+  margin-right: 60px;
   font-size: 23px;
 }
 
@@ -80,7 +80,7 @@ body {
   margin-right: 20px;
 }
 
-.logoHeader nav a:hover {
+.logoHeader nav .link:hover {
   color: #cd6326;
   text-decoration: underline;
 }
