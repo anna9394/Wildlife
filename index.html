@@ -14,7 +14,7 @@
 <body>
     <div class="foxContainer">
         <header>
-            <div class="wrapper logoHeader">
+            <div class="wrapper mainHeader">
                 <div class="logo">
                     <img src="img/logo.svg" alt="logotype">
                     <h1>WILDLIFE</h1>
@@ -22,9 +22,10 @@
 
                 <nav>
                     <ul>
-                        <li><a href="#" class="link">Blog</a></li>
-                        <li><a href="#" class="link">Contact</a></li>
-                        <li><a href="#" aria-label="search"><img src="img/vector.png" class="search" alt="search"></a>
+                        <li><a href="#" class="link navLink">Blog</a></li>
+                        <li><a href="#" class="link navLink">Contacts</a></li>
+                        <li><a href="#" class="search" aria-label="search"><img src="img/search.png"
+                                    alt="search button"></a>
                         </li>
                         <li><a href="#" class="btn secondary" aria-label="sign in">Sign in</a></li>
                     </ul>
@@ -44,7 +45,7 @@
     <main>
         <section class="latestArticles wrapper">
             <h2>Latest articles</h2>
-            <h3 class="latestArticlesSubHeading">Breaking news from the wild</h3>
+            <h3 class="subHeading">Breaking news from the wild</h3>
 
             <div class="containerCards">
                 <div class="btnSlider">
@@ -82,7 +83,7 @@
             <h2>Get notified about new amazing articles</h2>
             <form class="mainSearch" action="/" method="POST">
                 <input type="text" placeholder="Email" name="search" class="searchInput">
-                <input aria-label="searchButton" type="submit" value="Send">
+                <input type="submit" value="Send" aria-label="search button">
             </form>
         </section>
     </main>
@@ -92,13 +93,13 @@
             <div class="wrapper logoFooter">
                 <div class="logo">
                     <img src="img/logo.svg" alt="logotype">
-                    <h1>WILDLIFE</h1>
+                    <div>WILDLIFE</div>
                 </div>
 
                 <ul class="footerMenuContainer">
-                    <li class="footerMenu"><a href="#">Articles</a></li>
-                    <li class="footerMenu"><a href="#">About us</a></li>
-                    <li class="footerMenu "><a href="#">Learn more</a></li>
+                    <li class="link"><a href="#">Articles</a></li>
+                    <li class="link"><a href="#">About us</a></li>
+                    <li class="link"><a href="#">Learn more</a></li>
                 </ul>
                 <ul class="footerSocialContainer">
                     <li class="social"><a href="https://www.facebook.com/" target="_blank"
