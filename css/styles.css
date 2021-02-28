@@ -48,7 +48,7 @@ body {
 .foxContainer {
   max-width: 1440px;
   margin: 0 auto;
-  background-image: url(../img/fox.jpg);
+  background-image: url(../assets/fox.jpg);
   background-color: #02160b;
   background-repeat: no-repeat;
   background-size: cover;
@@ -321,11 +321,11 @@ main h2 {
 }
 
 .btnSlider button:first-child::before {
-  content: url(../img/arrow.png);
+  content: url(../assets/arrow.png);
 }
 
 .btnSlider button:last-child::before {
-  content: url(../img/arrow.png);
+  content: url(../assets/arrow.png);
   transform: rotate(180deg);
 }
 
@@ -341,7 +341,7 @@ footer figcaption {
 .bg-footer-image {
   max-width: 1440px;
   margin: 0 auto;
-  background-image: url("../img/list.jpg");
+  background-image: url("../assets/list.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -375,19 +375,19 @@ footer .social:not(:last-child) {
 }
 
 .footerSocialContainer li:first-child a {
-  background-image: url("../img/fb.svg");
+  background-image: url("../assets/fb.svg");
 }
 
 .footerSocialContainer li:nth-child(2) a {
-  background-image: url("../img/inst.svg");
+  background-image: url("../assets/inst.svg");
 }
 
 .footerSocialContainer li:nth-child(3) a {
-  background-image: url("../img/p.svg");
+  background-image: url("../assets/p.svg");
 }
 
 .footerSocialContainer li:last-child a {
-  background-image: url("../img/tg.svg");
+  background-image: url("../assets/tg.svg");
 }
 
 .footerSocialContainer {
