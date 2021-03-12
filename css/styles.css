@@ -87,9 +87,16 @@ body {
   margin-right: 40px;
 }
 
-.logo img {
-  margin-right: 20px;
+.logo:hover svg,
+.logo:hover h1 {
+  color:#8f5613;
 }
+
+.logo svg {
+  margin-right: 20px;
+  fill: #fff;
+}
+
 
 .logo h1,
 .logo > div {
